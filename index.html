@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luis' Survey Form</title>
+    <!-- ICONS -->
+    <script src="https://kit.fontawesome.com/b0455e8c8f.js" crossorigin="anonymous"></script>
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+</head>
+
+<body>
+    <div class="container">
+        <h1 id="title"><i class="fa-brands fa-wpforms"></i> Luis' survey form</h1>
+        <p id="description">Fill in the following fields, those marked with "(*)" are required.</p>
+        <form id="survey-form">
+            <!-- Name, email and age -->
+            <h2>Personal details</h2>
+            <fieldset>
+                <label id="name-label">Name <strong>(*)</strong><input type="text" id="name" required
+                        placeholder="Enter you name" /></label>
+                <label id="email-label">Email <strong>(*)</strong><input type="email" id="email" required
+                        placeholder="Enter you email" /></label>
+                <label id="number-label">Age <input type="number" id="number" min="18" max="120"
+                        placeholder="Enter your age (optional)" /></label>
+            </fieldset>
+            <!-- Account type -->
+            <h2>Personal details</h2>
+            <fieldset class="inline">
+                <label class="radio"><input type="radio" name="account-type" value="Personal" /> Personal
+                    Account</label>
+                <label class="radio"><input type="radio" name="account-type" value="Business" /> Business
+                    Account</label>
+            </fieldset>
+            <!-- Bio -->
+            <h2>Personal details</h2>
+            <fieldset>
+                <label>Provide a bio <strong>(*)</strong>:
+                    <textarea name="bio" rows="3" cols="30" placeholder="It all started..." required></textarea>
+                </label>
+            </fieldset>
+            <!--How did you hear about us? -->
+            <h2>Personal details</h2>
+            <fieldset>
+                <label>How did you hear about us? <strong>(*)</strong>
+                    <select id="dropdown" required>
+                        <option value="other-option">Other</option>
+                        <option value="social-option">Social networks</option>
+                        <option value="news-option">News</option>
+                    </select>
+                </label>
+            </fieldset>
+            <!-- Terms and advertising -->
+            <h2>Personal details</h2>
+            <fieldset class="inline">
+                <label class="checkbox">
+                    <input type="checkbox" name="terms" value="Terms" required /> I accept the<a
+                        href="https://www.freecodecamp.org/news/terms-of-service/"> terms and conditions</a>
+                    <strong>(*)</strong>
+                </label>
+                <label class="checkbox">
+                    <input type="checkbox" name="advertising" value="Advertising" /> I want to receive e-mails with news
+                    related to the site
+                </label>
+            </fieldset>
+            <input id="submit" type="submit" value="Submit" />
+        </form>
+    </div>
+</body>
+
+</html>
