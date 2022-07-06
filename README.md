@@ -9,6 +9,7 @@
 I've been learning how to use html and css and I thought it was time to demonstrate it by making a form with inputs, checkboxes, textareas, ... 
 
 ## 🖇 Preview <a name="preview"></a>
+https://user-images.githubusercontent.com/84635684/177504801-7d26f977-b8f5-42c0-8a83-cb22814e478a.mp4
 
 ## ⛏️ Built Using <a name = "built_using"></a>
 [<img src="https://img.shields.io/badge/html-e34c26?style=for-the-badge&logo=html&logoColor=FFFFFF" />](https://es.wikipedia.org/wiki/HTML)
