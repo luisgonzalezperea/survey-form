@@ -2,7 +2,7 @@
  
 ## 📝 Table of Contents
 - [Purpose](#purpose)
-- [Repository content](#repository_content)
+- [Preview](#preview)
 - [Built Using](#built_using)
 
 ## 🧐 Purpose <a name = "purpose"></a>
